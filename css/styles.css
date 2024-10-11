@@ -1,5 +1,5 @@
 table, th, td{
-    width : 900px;
+    width : 1000px;
     margin: auto;
     background-color: white;
 }
@@ -7,7 +7,6 @@ body{
 background: linear-gradient(blue,black);
 }   
 .photoActeur {
-    background-image: url('../images/téléchargement (1).jpg');
     width: 80px;
     height: 80px;
     margin: 10px;
@@ -26,10 +25,9 @@ background: linear-gradient(blue,black);
 .synopsis{
     float: left;
 }
-#Affiche{
-    max-width: 600px;
-    padding: 0%;
-    margin: 0%;
+#afficheFilm{
+    max-width: 400px;
+    max-height: 500px;
 }
 .distribution{
     background-color: blue;
@@ -44,4 +42,36 @@ background: linear-gradient(blue,black);
 }
 li{
     list-style:disc ;
+}
+.bleu{
+    color: blue;
+    font-size:smaller;
+}
+.name{
+    font-size: large;
+    font-weight: 800;
+}
+#mark{
+    background-image: url('../images/téléchargement.jpg');
+}
+#ford{
+    background-image: url('../images/téléchargement (1).jpg');
+}
+#fisher{
+    background-image: url('../images/téléchargement\ \(2\).jpg');
+}
+#alec{
+    background-image: url('../images/téléchargement\ \(3\).jpg');
+}
+#daniels{
+    background-image: url('../images/téléchargement\ \(7\).jpg');
+}
+#kenny{
+    background-image: url('../images/téléchargement\ \(6\).jpg');
+}
+#peter{
+    background-image: url('../images/téléchargement\ \(5\).jpg');
+}
+#david{
+    background-image: url('../images/téléchargement\ \(4\).jpg');
 }
